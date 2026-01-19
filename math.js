@@ -33,10 +33,5 @@ function generateRondomColor(){
 
 
 
-/* console.log(num)
-console.log(num2)
-console.log(num3)
-console.log(num4)
-console.log(num5)
-console.log(num6) */
+
 
