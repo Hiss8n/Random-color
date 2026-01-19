@@ -29,9 +29,27 @@ function generateRondomColor(){
 
 }
 
+let fruits=["Apple","mango","pear"]
+
+function addItem(fruit){
+  fruits.push(fruit) 
+}
+addItem("banana")
+addItem("avocado")
+
+function renderFruits(){
+  fruits.forEach(fruit=>{
+  const li=document.createElement('li')
+  li.innerText=fruit
+  const olEl=document.getElementById("list")
+  olEl.appendChild(li)  
+  })
+}
+
+renderFruits()
 
 
 
 
 
-
+console.log(fruits) 
